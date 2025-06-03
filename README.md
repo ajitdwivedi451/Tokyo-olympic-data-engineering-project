@@ -1,2 +1,2 @@
 # Tokyo-olympic-data-engineering-project
-this project will perfform data engineering on tokyo olympic
+this project will perform data engineering on tokyo olympic
