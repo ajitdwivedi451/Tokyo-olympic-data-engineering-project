@@ -1,0 +1,30 @@
+{
+	"name": "tokOlyGitRawData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "t_oly_git_http_ls",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"git_raw_data_link": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@dataset().git_raw_data_link",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
