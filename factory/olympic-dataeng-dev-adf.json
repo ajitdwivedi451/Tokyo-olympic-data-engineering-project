@@ -1,0 +1,9 @@
+{
+	"name": "olympic-dataeng-dev-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7237b41b-9ebd-44fc-93d3-495fba4bbf56",
+		"tenantId": "826a6d5a-e56c-4e57-942c-7402f739d56f"
+	}
+}
