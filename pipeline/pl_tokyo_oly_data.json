@@ -49,7 +49,13 @@
 				"inputs": [
 					{
 						"referenceName": "tokOlyGitRawData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"git_raw_data_link": {
+								"value": "@pipeline().parameters.gitrawdatalink",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -117,7 +123,13 @@
 				"inputs": [
 					{
 						"referenceName": "tokOlyGitRawData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"git_raw_data_link": {
+								"value": "@pipeline().parameters.gitrawdatalink",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -185,7 +197,13 @@
 				"inputs": [
 					{
 						"referenceName": "tokOlyGitRawData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"git_raw_data_link": {
+								"value": "@pipeline().parameters.gitrawdatalink",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -253,7 +271,13 @@
 				"inputs": [
 					{
 						"referenceName": "tokOlyGitRawData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"git_raw_data_link": {
+								"value": "@pipeline().parameters.gitrawdatalink",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -321,7 +345,13 @@
 				"inputs": [
 					{
 						"referenceName": "tokOlyGitRawData",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"git_raw_data_link": {
+								"value": "@pipeline().parameters.gitrawdatalink",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -336,6 +366,16 @@
 				]
 			}
 		],
+		"parameters": {
+			"gitrawdatalink": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"git_raw_data_link": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-06-03T16:55:07Z"
 	},
